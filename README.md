@@ -1,8 +1,11 @@
 # Active IP Adresse
-## Discovering Active IP Addresses with Name Resolution
+## Discovering Active IP Addresses
 This Python script uses Scapy to discover active IP addresses on a local network using ARP and resolves device names using the Domain Name System (DNS).
 ## Usage
 1. Ensure you have Python 3 installed on your system.
+```bash
+python3 --version
+```
 2. Install the required Python libraries by running the following command:
 ```bash
 pip install scapy tabulate
@@ -19,6 +22,10 @@ cd Active_ip_addr
 3. Run the following commande, replacing 192.168.1.1/24 with the range of IP addresses you want to analyze:
 ```bash
 python3 showip.py 192.168.1.1/24
+```
+or
+```bash
+./showip.py 192.168.1.1/24
 ```
 The script will discover active IP addresses, resolve device names via DNS, and display the information in a table.
 

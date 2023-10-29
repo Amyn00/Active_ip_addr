@@ -45,7 +45,7 @@ ip_range = sys.argv[1]
 active_devices = scan(ip_range)
 
 # Display active IP addresses, device names, and MAC addresses in a table
-headers = ["Adresse IP", "Adresse MAC", "Peripheric Name"]
+headers = ["IP Adresse", "MAC Adresse", "Device Name"]
 table = tabulate(active_devices, headers, tablefmt="grid")
 print(table)
 
