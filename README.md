@@ -46,4 +46,4 @@ Ensure that your network allows DNS name resolution. Device names depend on your
 This script is provided as an example and may require adjustments based on your specific network. Name resolution depends on your network's DNS configuration.
 
 ## Author
-Mohammed Amine Mounjid
+**Mohammed Amine Mounjid**
