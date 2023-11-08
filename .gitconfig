@@ -1,3 +1,5 @@
-
 [color]
 	ui = auto
+
+[alias]
+	pl = pull
