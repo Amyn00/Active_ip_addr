@@ -1,0 +1,7 @@
+[color]
+	push = always
+
+[color "push"]
+	current = yellow bold
+	simple = green bold
+	matching = cyan bold
